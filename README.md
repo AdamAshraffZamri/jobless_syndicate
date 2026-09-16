@@ -6,18 +6,14 @@ Step-by-Step Instructions:
 
 1. Open the project folder
 Open your terminal (or Command Prompt / VS Code terminal) and navigate into the dashboard folder:
-
-Bash
 cd ecodisperse-dashboard
-2. Install all dependencies
-Since node_modules is not uploaded to GitHub, you need to download all the packages (React, Tailwind CSS, Recharts, etc.). Run:
 
-Bash
+3. Install all dependencies
+Since node_modules is not uploaded to GitHub, you need to download all the packages (React, Tailwind CSS, Recharts, etc.).
+Run:
 npm install
 (This might take a minute depending on your internet connection).
 
 3. Start the Development Server
 Once the installation finishes, boot up the local Vite server by running:
-
-Bash
 npm run dev
