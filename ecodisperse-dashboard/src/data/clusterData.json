@@ -1,0 +1,16 @@
+[
+  { "state": "Perlis", "total_visitor_load": 3968361, "avg_water_demand": 13.66, "strain_index": 290367, "risk_tier": "Tier 1", "tier_description": "High Vulnerability" },
+  { "state": "W.P. Labuan", "total_visitor_load": 418425, "avg_water_demand": 35.00, "strain_index": 11955, "risk_tier": "Tier 1", "tier_description": "High Vulnerability" },
+  { "state": "Kelantan", "total_visitor_load": 14892636, "avg_water_demand": 73.33, "strain_index": 203081, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Kedah", "total_visitor_load": 26358615, "avg_water_demand": 196.33, "strain_index": 134254, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Terengganu", "total_visitor_load": 21372463, "avg_water_demand": 166.33, "strain_index": 128491, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Melaka", "total_visitor_load": 22970001, "avg_water_demand": 187.66, "strain_index": 122397, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Perak", "total_visitor_load": 32368467, "avg_water_demand": 273.66, "strain_index": 118276, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Sabah", "total_visitor_load": 26985838, "avg_water_demand": 229.00, "strain_index": 117842, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Negeri Sembilan", "total_visitor_load": 24951892, "avg_water_demand": 225.00, "strain_index": 110897, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Pahang", "total_visitor_load": 26502133, "avg_water_demand": 266.00, "strain_index": 99632, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Pulau Pinang", "total_visitor_load": 24521651, "avg_water_demand": 320.33, "strain_index": 76550, "risk_tier": "Tier 2", "tier_description": "Balanced / Moderate" },
+  { "state": "Sarawak", "total_visitor_load": 32303963, "avg_water_demand": 450.33, "strain_index": 71733, "risk_tier": "Tier 3", "tier_description": "Under-utilized / Growth-Ready" },
+  { "state": "Johor", "total_visitor_load": 36051484, "avg_water_demand": 522.33, "strain_index": 69020, "risk_tier": "Tier 3", "tier_description": "Under-utilized / Growth-Ready" },
+  { "state": "Selangor", "total_visitor_load": 56920715, "avg_water_demand": 1342.33, "strain_index": 42404, "risk_tier": "Tier 3", "tier_description": "Under-utilized / Growth-Ready" }
+]
