@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
 import { Plus, Minus, Filter } from 'lucide-react';
 
-const geoUrl = "/malaysia-states.geojson";
+const geoUrl = `${import.meta.env.BASE_URL}malaysia-states.geojson`;
 
 const tierColors = {
   "Tier 1": "#ef4444", 
