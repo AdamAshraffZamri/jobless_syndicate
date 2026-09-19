@@ -136,13 +136,13 @@ export default function StateDetailPane({ selectedState, allData, onStateChange 
               <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                 <XAxis type="number" dataKey="visitors" name="Visitors (M)" stroke="#94a3b8" label={{ value: 'Total Visitors (Millions)', position: 'insideBottom', offset: -10, fill: '#64748b', fontSize: 12 }} />
-                <YAxis type="number" dataKey="water" name="Water (Gal)" stroke="#94a3b8" label={{ value: 'Water Demand (Gal)', angle: -90, position: 'insideLeft', fill: '#64748b', fontSize: 12 }} />
+                <YAxis type="number" dataKey="water" name="Water (MLD)" stroke="#94a3b8" label={{ value: 'Water Demand (MLD)', angle: -90, position: 'insideLeft', fill: '#64748b', fontSize: 12 }} />
                 <RechartsTooltip 
                   cursor={{strokeDasharray: '3 3'}}
                   contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px', color: '#f8fafc' }}
                   formatter={(value, name) => {
                     if(name === 'Visitors (M)') return [`${value.toFixed(2)}M`, 'Total Visitors'];
-                    return [value, 'Water Demand'];
+                    return [`${value} MLD`, 'Water Demand'];
                   }}
                 />
                 <Scatter name="States" data={filteredScatterData}>

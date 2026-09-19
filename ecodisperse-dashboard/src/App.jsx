@@ -97,7 +97,7 @@ export default function App() {
                   </h4>
                   <div className="space-y-1 mt-2 text-xs text-slate-300">
                     <p className="flex justify-between"><span>Historical Load:</span> <span className="font-bold text-white">{(selectedState.total_visitor_load/1000000).toFixed(2)}M visitors</span></p>
-                    <p className="flex justify-between"><span>Water Demand:</span> <span className="font-bold text-white">{selectedState.avg_water_demand} Gal</span></p>
+                    <p className="flex justify-between"><span>Water Demand:</span> <span className="font-bold text-white">{selectedState.avg_water_demand} MLD</span></p>
                     <p className="flex justify-between"><span>Capacity Index:</span> <span className="font-bold text-white">{selectedState.strain_index.toLocaleString()}</span></p>
                   </div>
                   <p className="mt-3 text-[11px] text-slate-400 italic leading-relaxed">
