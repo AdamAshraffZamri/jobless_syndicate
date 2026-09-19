@@ -3,7 +3,7 @@
 **DOSM Datathon 2026 Submission** | **Sustainable Tourism & Infrastructure**  
 *Aligning with UN SDGs: Goal 8 (Decent Work & Economic Growth), Goal 11 (Sustainable Cities), Goal 12 (Responsible Consumption).*
 
-![Dashboard Preview](https://adamashraffzamri.github.io/jobless_syndicate/)
+![Dashboard Preview](https://adamashraffzamri.github.io/jobless_syndicate/1000x500?text=EcoDisperse+Dashboard+Preview)
 
 ## 📌 Project Overview
 As Malaysia prepares for the massive influx of tourists for Visit Malaysia 2026 (VM2026), policymakers face a critical challenge: balancing economic growth with the physical limits of municipal infrastructure. 
